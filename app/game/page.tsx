@@ -78,7 +78,7 @@ export default function GamePage() {
                 <div className="text-sm mt-6" style={{ color: '#A67C52' }}>
                     <p>PC 점프 : 스페이스바</p>
                     <p>모바일 점프 : 터치</p>
-                    <p>게스트 로그인은 기록이 남지 않습니다.</p>
+                    <p>게스트 로그인은 기록이 남지 않습니다</p>
                 </div>
                 <button
                     onClick={goToLeaderboard}
