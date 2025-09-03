@@ -9,7 +9,7 @@ export default function Home() {
               alt=""
               className="w-fit h-56 object-cover"
           />
-        <h1 className="text-xl font-bold my-8 ">로그인 하고 게임 시작하기</h1>
+        <h1 className="text-xl font-bold my-8 text-black ">로그인 하고 게임 시작하기</h1>
         <LoginButtons/>
       </div>
   );
