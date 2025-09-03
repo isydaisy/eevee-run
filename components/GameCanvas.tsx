@@ -167,12 +167,12 @@ const GameCanvas: React.FC<GameCanvasProps> = ({ onTimeUpdate,onGameOver })   =>
 
             const saveScoreAsync = async () => {
                 if (!user) return; // 로그인 안 되어 있으면 저장하지 않음
-                console.log("@@@@")
+                // console.log("@@@@")
                 try {
                     await saveHighScore(user, elapsed); // user 객체 전체 전달
-                    console.log("점수 저장 완료:", elapsed);
+                    // console.log("점수 저장 완료:", elapsed);
                 } catch (err) {
-                    console.error("점수 저장 실패:", err);
+                    // console.error("점수 저장 실패:", err);
                 }
             };
 
